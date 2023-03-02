@@ -3,7 +3,7 @@
   <div class="component-container">
     <el-card class="team-card">
       <template #header>
-        <span class="fw-b">有来开源组织</span>
+        <span class="fw-b">开源组织</span>
       </template>
     </el-card>
   </div>
@@ -16,12 +16,6 @@ import BScroll from 'better-scroll';
 const state = reactive({
   teamActiveName: '1',
   developers: [
-    {
-      imgUrl: 'https://s2.loli.net/2022/04/06/yRx8uzj4emA5QVr.jpg',
-      nickname: '郝先瑞',
-      positions: ['后端', '前端', '文档'],
-      homepage: 'https://www.cnblogs.com/haoxianrui/'
-    },
     {
       imgUrl: 'https://s2.loli.net/2022/04/06/cQihGv9uPsTjXk1.jpg',
       nickname: '张川',
