@@ -37,3 +37,4 @@ export function getCaptcha(): AxiosPromise<VerifyCode> {
     method: 'get',
   });
 }
+
